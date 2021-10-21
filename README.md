@@ -6,8 +6,7 @@
 ### Information
 This Java application solves .in-mazes using a recursive maze-solving algorithm
 
-#### This Java-program uses .ini-files of the structure below to find the exit.
-#### The program has the following functionality:
+#### Functionality:
 - See shortest path
 - See total number of paths
 - Start / End position
@@ -15,6 +14,8 @@ This Java application solves .in-mazes using a recursive maze-solving algorithm
 - Loading a new .in-path
 - Iterate through paths
 - See path chain
+
+#### This Java-program uses .ini-files of the structure below to find the exit.
 
 ```
 23 23
@@ -42,3 +43,7 @@ This Java application solves .in-mazes using a recursive maze-solving algorithm
 #.....#.........#.....#
 #######.###.###.#######
 ```
+
+### Usage
+- javac Main.java
+- java Main
